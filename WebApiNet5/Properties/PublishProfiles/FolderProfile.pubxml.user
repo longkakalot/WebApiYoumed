@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>G:\SourceCodeWebApp\IdentityServer4\WebApi\published</_PublishTargetUrl>
+    <History>True|2021-10-09T16:41:52.4714650Z;True|2021-10-08T17:00:39.0920519+07:00;True|2021-10-07T14:56:03.7173500+07:00;True|2021-10-07T14:35:51.6896724+07:00;True|2021-10-07T14:30:39.1168030+07:00;False|2021-10-07T14:29:24.7286695+07:00;True|2021-10-07T13:40:57.9589494+07:00;True|2021-10-06T16:36:43.0718474+07:00;True|2021-10-06T16:28:10.5541975+07:00;False|2021-10-06T16:27:55.9996182+07:00;True|2021-10-06T16:21:15.0517142+07:00;True|2021-10-06T16:20:29.3920178+07:00;True|2021-10-06T15:57:34.8131554+07:00;True|2021-10-06T15:51:57.0210823+07:00;True|2021-10-06T15:47:28.1119618+07:00;True|2021-10-06T14:33:07.7505853+07:00;True|2021-10-06T14:22:37.1737341+07:00;True|2021-10-06T14:12:58.4262978+07:00;</History>
+  </PropertyGroup>
+</Project>
