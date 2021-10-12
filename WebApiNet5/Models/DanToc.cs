@@ -13,6 +13,8 @@ namespace WebApiNet5.Models
 
     public class Nation
     {
+        //public int StatusCode { get; set; }
         public List<DanToc> Nations { get; set; }
+        
     }
 }

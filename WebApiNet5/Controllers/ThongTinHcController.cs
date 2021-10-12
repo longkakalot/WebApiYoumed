@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -29,6 +30,7 @@ namespace WebApiNet5.Controllers
         }
 
         [Route("api/v1/nations")]
+        //[Authorize]
         [HttpGet]
         public async Task<IActionResult> GetDanTocs()
         {
@@ -37,9 +39,13 @@ namespace WebApiNet5.Controllers
                 var kqAwait = await _iThongTinHanhChinhRepo.GetDanTocs();
                 var kq = kqAwait.ToList();
 
-                var nations = new Nation { Nations = kq.ToList() };
-                Response.StatusCode = StatusCodes.Status200OK;
-                Response.Headers.Add("Header", "Status code: " + Response.StatusCode.ToString());
+                var nations = new Nation {                    
+                    Nations = kq.ToList()                  
+
+                };
+
+                //Response.StatusCode = StatusCodes.Status200OK;
+                //Response.Headers.Add("Header", "Status code: " + Response.StatusCode.ToString());
 
                 return new JsonResult(nations);                
             }
@@ -48,8 +54,10 @@ namespace WebApiNet5.Controllers
                 _logger.LogInformation(ex.Message);
                 
                 Response.StatusCode = StatusCodes.Status500InternalServerError;
-                Response.Headers.Add("Header", "Status code: " + Response.StatusCode.ToString());
-                return new JsonResult("");
+
+                var message = ex.Message;
+                
+                return new JsonResult(message);
                  
             }            
         }

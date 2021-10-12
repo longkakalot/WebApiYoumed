@@ -49,3 +49,4 @@ G:\SourceCodeWebApp\IdentityServer4\WebApi\WebApiNet5\WebApiNet5\bin\Debug\net5.
 G:\SourceCodeWebApp\IdentityServer4\WebApi\WebApiNet5\WebApiNet5\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
 G:\SourceCodeWebApp\IdentityServer4\WebApi\WebApiNet5\WebApiNet5\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 G:\SourceCodeWebApp\IdentityServer4\WebApi\WebApiNet5\WebApiNet5\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\SourceCodeWebApp\IdentityServer4\WebApi\WebApiNet5\WebApiNet5\obj\Debug\net5.0\WebApiNet5.csproj.AssemblyReference.cache
